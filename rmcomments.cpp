@@ -1,3 +1,5 @@
+// Task: Write a program that replaces all the comments with white space to make the code much easier to read.
+// How to run?: Use the command `vimdiff wordcount.cpp <(./rmcomments < wordcount.cpp) in Linux system.
 // Quick note: This does code does not work completely as it doesn't know how to deal with string literal cases. If I figure it out, I'll come back and add on.
 
 #include <iostream>
