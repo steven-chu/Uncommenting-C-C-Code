@@ -7,7 +7,7 @@
 #include <string>
 using namespace std;
 
-enum { normal, slash, comment, slashSatr, doubleSlash } condition = normal; // Defining different states/cases
+enum { normal, slash, comment, slashStar, doubleSlash } condition = normal; // Defining different states/cases
 int main()
 {
 char c;
